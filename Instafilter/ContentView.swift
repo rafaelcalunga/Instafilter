@@ -11,14 +11,22 @@ import CoreImage.CIFilterBuiltins
 
 struct ContentView: View {
     @State private var image: Image?
+    @State private var showingImagePicker = false
     
     var body: some View {
         VStack {
             image?
                 .resizable()
                 .scaledToFit()
+            
+            Button("Select Image") {
+                self.showingImagePicker = true
+            }
         }
         .onAppear(perform: loadImage)
+        .sheet(isPresented: $showingImagePicker) {
+            ImagePicker()
+        }
     }
     
     func loadImage() {
@@ -31,7 +39,7 @@ struct ContentView: View {
         currentFilter.inputImage = beginImage
         currentFilter.intensity = 1
         //currentFilter.scale = 50 pixellate()
-        //currentFilter.radius = 200 crystallize()
+        //currentFilter.radius = 200 //crystallize()
         guard let outputImage = currentFilter.outputImage else { return }
         
         let context = CIContext()
