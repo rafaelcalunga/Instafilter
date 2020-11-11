@@ -22,6 +22,7 @@
 		6D0EFD2A2554BDB8000C8592 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6D0EFD2C2554BDB8000C8592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D0EFD3B255A3B3E000C8592 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		6D0EFD3F255B7AF5000C8592 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 			children = (
 				6D0EFD222554BDB7000C8592 /* Instafilter */,
 				6D0EFD212554BDB7000C8592 /* Products */,
+				6D0EFD3F255B7AF5000C8592 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};

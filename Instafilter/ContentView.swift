@@ -12,6 +12,7 @@ import CoreImage.CIFilterBuiltins
 struct ContentView: View {
     @State private var image: Image?
     @State private var showingImagePicker = false
+    @State private var inputImage: UIImage?
     
     var body: some View {
         VStack {
@@ -24,9 +25,14 @@ struct ContentView: View {
             }
         }
         .onAppear(perform: loadImage)
-        .sheet(isPresented: $showingImagePicker) {
-            ImagePicker()
+        .sheet(isPresented: $showingImagePicker, onDismiss: loadNewImage) {
+            ImagePicker(image: $inputImage)
         }
+    }
+    
+    func loadNewImage() {
+        guard let inputImage = inputImage else { return }
+        image = Image(uiImage: inputImage)
     }
     
     func loadImage() {
