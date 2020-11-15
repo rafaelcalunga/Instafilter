@@ -11,6 +11,8 @@ I learned how to:
 - Integrate **Core Image** with SwiftUI
 - Wrap a UIViewController in a SwiftUI view
 - Use coordinators to manage SwiftUI view controllers
+- Basic image filtering using Core Image
+- Customize filter using ActionSheet
 - Save images to the user’s photo library
 
 
