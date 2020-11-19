@@ -83,6 +83,7 @@ struct ContentView: View {
                         
                         imageSaver.writetoPhotoAlbum(image: processedImage)
                     }
+                    .disabled(image == nil)
                 }
             }
             .padding(.horizontal)

@@ -1,6 +1,6 @@
 #  Instafilter
 
-This project is an app used to manipulate images
+This project is an app used to manipulate images applying some filters
 
 I made this project to improve my knowledge in iOS development, specially SwiftUI.
 
@@ -14,6 +14,5 @@ I learned how to:
 - Basic image filtering using Core Image
 - Customize filter using ActionSheet
 - Save images to the user’s photo library
-
 
 This app was made using the course **100 Days of SwiftUI** from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)
