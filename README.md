@@ -22,3 +22,11 @@ This app was made using the course **100 Days of SwiftUI** from [Hacking With Sw
 | Home  | Filters  |
 | --- | --- |
 |  ![App](demo/app.png)  | ![Filters](demo/filters.png) |
+
+| Sepia   | Gaussian Blur  |
+| --- | --- |
+|  ![App](demo/sepia.png)  | ![Filters](demo/gaussian-blur.png) |
+
+| Edges  | Crystalize  |
+| --- | --- |
+|  ![App](demo/edges.png)  | ![Filters](demo/crystalize.png) |
