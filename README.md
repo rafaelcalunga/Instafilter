@@ -21,4 +21,4 @@ This app was made using the course **100 Days of SwiftUI** from [Hacking With Sw
 
 | Home  | Filters  |
 | --- | --- |
-|  ![App](https://github.com/rafaelcalunga/Instafilter/blob/main/app.png)  | ![Filters](https://github.com/rafaelcalunga/Instafilter/blob/main/filters.png) |
+|  ![App](demo/app.png)  | ![Filters](demo/filters.png) |
