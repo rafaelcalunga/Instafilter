@@ -16,3 +16,9 @@ I learned how to:
 - Save images to the user’s photo library
 
 This app was made using the course **100 Days of SwiftUI** from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)
+
+## Examples
+
+| Home  | Filters  |
+| --- | --- |
+|  ![App](https://github.com/rafaelcalunga/Instafilter/blob/main/app.png)  | ![Filters](https://github.com/rafaelcalunga/Instafilter/blob/main/filters.png) |
